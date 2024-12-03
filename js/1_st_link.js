@@ -26,7 +26,7 @@ const obj = {
 // 5. Execute the function named myFunction.
 
 function myFunction() {
-  //   alert('Hello World!')
+  alert('Hello World!')
 }
 
 // call the function and see the output
@@ -36,9 +36,9 @@ myFunction()
 
 const person = {
   name: 'John',
-  age: 50, // access the object to alert("John is 50")
+  age: 50,
 }
-// alert(`${person.name} is ${person.age}`)
+alert(`${person.name} is ${person.age}`)
 
 // 7. The <button> element should do something when someone clicks on it. Try to fix it!
 function btnClick() {
@@ -50,7 +50,7 @@ function btnClick() {
  * 1. Alert the number of items in an array, using the correct Array property:
  */
 const cars = ['Volvo', 'Jeep', 'Mercedes']
-console.log(`Car Length is: ${cars.length}`)
+console.log(`Cars Length is: ${cars.length}`)
 
 /**
  * --------------------- 8. Array Related Question ---------------------
